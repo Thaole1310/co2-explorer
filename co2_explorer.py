@@ -60,7 +60,8 @@ app.layout = dbc.Container(
                [World Development Indicators](https://datatopics.worldbank.org/world-development-indicators/) 
                database."""
         ),
-        dcc.Graph(figure = fig_co2)
+        dcc.Graph(figure = fig_co2),
+        dcc.Graph(figure = fig_co2pc)
     ],
     className = 'dbc'
 )
